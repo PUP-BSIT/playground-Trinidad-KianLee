@@ -56,13 +56,6 @@ li {
   color: rgb(180, 199, 220);
   text-align: center;
 }
-.text {
-  color: rgb(180, 199, 220);
-  position: absolute;
-  top: 97%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 .gallery {
   background-color: rgb(233, 241, 250);
