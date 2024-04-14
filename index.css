@@ -110,3 +110,42 @@ li {
 .image-box:nth-child(1):hover {
   flex-basis: 30%;
 }
+
+div {
+  border: 1px solid rgb(255, 201, 201);
+}
+
+@media (max-width: 426px) {
+  .message-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .submit-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 426px) {
+  .upper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .message-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .submit-container {
+    display: flex;
+    justify-content: center;
+  }
+}
