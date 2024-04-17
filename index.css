@@ -132,3 +132,39 @@ li {
     margin-bottom: 50px;
   }
 }
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="number"],
+.container textarea,
+.container label {
+  color: #ffffff;
+}
+
+.forms {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.forms > div {
+  width: 100%;
+}
+
+.checkbox-container,
+.message-container,
+.submit-container {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .forms {
+    grid-template-columns: 1fr;
+  }
+}
