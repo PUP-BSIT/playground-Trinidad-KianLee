@@ -89,9 +89,27 @@ li {
   object-fit: cover;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 420px) {
+  .image-box {
+    width: calc(100% - 20px);
+  }
+}
+
+@media (min-width: 421px) and (max-width: 726px) {
   .image-box {
     width: calc(50% - 20px);
+  }
+}
+
+@media (min-width: 727px) and (max-width: 1200px) {
+  .image-box {
+    width: calc(33.33% - 20px);
+  }
+}
+
+@media (min-width: 1201px) {
+  .image-box {
+    width: calc(25% - 20px);
   }
 }
 
