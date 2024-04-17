@@ -1,5 +1,0 @@
-First try!
-I am exploring vscode and github!
-I'm going to try to simulate using github and vscode (NOTE: Don't ever try to edit/add files in github it is a bad practice)
-Having problems.
-
