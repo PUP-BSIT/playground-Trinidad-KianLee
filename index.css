@@ -120,12 +120,14 @@ li {
 }
 
 @media (max-width: 426px) {
-  .contact {
+  .contact,
+  .message-container,
+  .submit-container,
+  .container {
     color: #ffffff;
   }
 
   .message-container {
-    color: #ffffff;
     display: flex;
     flex-direction: column;
   }
@@ -172,12 +174,14 @@ li {
 }
 
 @media (max-width: 768px) {
-  .contact {
+  .contact,
+  .message-container,
+  .submit-container,
+  .container {
     color: #ffffff;
   }
 
   .message-container {
-    color: #ffffff;
     display: flex;
     flex-direction: column;
   }
