@@ -73,50 +73,22 @@ li {
 }
 
 .gallery {
-  background-color: #242333;
   display: flex;
-  margin: 1rem;
-  box-sizing: border-box;
-}
-
-.gallery img {
-  width: 100px;
-  height: 100px;
-  color: #ffffff;
-}
-
-.gallery:hover {
-  border: 1px #ffffff;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #242333;
 }
 
 .image-box {
-  margin: 0 1%;
-  flex-grow: 1;
-  flex-basis: 0;
-  transition: 0.5s;
+  width: 200px; /* Set a fixed width for each image box */
+  height: 200px; /* Set a fixed height for each image box */
+  margin: 10px; /* Add margin between image boxes */
 }
 
 .image-box img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: 0.5s;
-}
-
-.image-box:hover {
-  flex-basis: 10%;
-}
-
-.active {
-  flex-basis: 10%;
-}
-
-.gallery:hover .active {
-  flex-basis: 0;
-}
-
-.image-box:nth-child(1):hover {
-  flex-basis: 10%;
+  width: 100%; /* Ensure the image fills the image box */
+  height: 100%; /* Ensure the image fills the image box */
+  object-fit: cover; /* Maintain aspect ratio */
 }
 
 @media (max-width: 426px) {
