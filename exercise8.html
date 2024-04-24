@@ -1,49 +1,118 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Exercise 8</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="trinidad_style.css" rel="stylesheet" />
+    <title>Trinidad, Kian Lee</title>
   </head>
   <body>
-    <h2>Contact Me</h2>
-    <div>
-      <form class="container">
-        <div class="upper">
-          <div>
-            <label for="email">Email</label>
-            <input type="email" name="email" />
+    <header>
+      <h1>Trinidad, Kian Lee</h1>
+    </header>
+
+    <div class="interest">
+      <h2>My Interests and Hobbies</h2>
+      <div class="interest-list">
+        <ul>
+          <li>Watching movies</li>
+          <li>Playing games</li>
+          <li>Walking</li>
+          <li>Horror documentaries</li>
+          <li>Watching tutorial videos</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="works">
+      <h2>My Works</h2>
+      <div class="works-list">
+        <ol>
+          <li><a href="#">Youth</a></li>
+          <li><a href="#">Poetry</a></li>
+          <li><a href="#">Cloud</a></li>
+          <li><a href="#">Freedom</a></li>
+          <li><a href="#">Fall</a></li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="testimonials">
+      <h2>Testimonials</h2>
+      <div class="testimonial-list">
+        <p>Love your work here man! - Gasta</p>
+        <p>Nice work! - Armedilla</p>
+        <p>Excellent job! - Rosario</p>
+        <p>Nice design bro love the minimalist types! - Escuro</p>
+        <p>It's cool, really love what you did! - Ilagan</p>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <h2 class="title">Gallery</h2>
+      <div class="image-container">
+        <div class="image-box">
+          <img src="./images/4.jpg" alt="Image 1" />
+        </div>
+        <div class="image-box">
+          <img src="./images/5.jpg" alt="Image 2" />
+        </div>
+        <div class="image-box">
+          <img src="./images/6.jpg" alt="Image 3" />
+        </div>
+        <div class="image-box">
+          <img src="./images/8.jpg" alt="Image 4" />
+        </div>
+        <div class="image-box">
+          <img src="./images/9.jpg" alt="Image 5" />
+        </div>
+        <div class="image-box">
+          <img src="./images/10.jpg" alt="Image 6" />
+        </div>
+      </div>
+    </div>
+
+    <div class="contact">
+      <h2>Contact Me</h2>
+      <div class="form-container">
+        <form class="container" action="#" method="POST">
+          <div class="forms">
+            <div>
+              <label for="email">Email</label>
+              <input type="email" name="email" required />
+            </div>
+
+            <div>
+              <label for="fullname">Fullname</label>
+              <input type="text" name="fullname" required />
+            </div>
+
+            <div>
+              <label for="age">Age</label>
+              <input type="number" name="age" required />
+            </div>
+
+            <div>
+              <label for="subject">Subject</label>
+              <input type="text" name="subject" required />
+            </div>
           </div>
 
-          <div>
-            <label for="fullname">Fullname</label>
-            <input type="text" name="fullname" />
+          <div class="message-container">
+            <label for="message">Message</label>
+            <textarea name="message" cols="30" rows="10" required></textarea>
           </div>
 
-          <div>
-            <label for="age">Age</label>
-            <input type="number" name="age" />
+          <div class="checkbox-container">
+            <input type="checkbox" name="sendme" />
+            <label for="sendme">Send me a copy</label>
           </div>
 
-          <div>
-            <label for="subject">Subject</label>
-            <input type="text" name="subject" />
+          <div class="submit-container">
+            <input type="submit" value="Submit" />
           </div>
-        </div>
-
-        <div class="checkbox-container">
-          <label for="sendme">Send me a copy</label>
-          <input type="checkbox" name="sendme" />
-        </div>
-
-        <div class="message-container">
-          <label for="message">Message</label>
-          <textarea name="message" cols="30" rows="10"></textarea>
-        </div>
-
-        <div class="submit-container">
-          <input type="submit" />
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
   </body>
 </html>
