@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="index.css" rel="stylesheet" />
+    <link href="trinidad_style.css" rel="stylesheet" />
     <title>Trinidad, Kian Lee</title>
   </head>
   <body>
@@ -11,30 +11,24 @@
       <h1>Trinidad, Kian Lee</h1>
     </header>
 
-    <div class="interest">
+    <div class="interests">
       <h2>My Interests and Hobbies</h2>
-      <div class="interest-list">
-        <ul>
-          <li>Watching movies</li>
-          <li>Playing games</li>
-          <li>Walking</li>
-          <li>Horror documentaries</li>
-          <li>Watching tutorial videos</li>
-        </ul>
-      </div>
+      <ul class="interests-list">
+        <li class="interest">Watching movies</li>
+        <li class="interest">Playing games</li>
+        <li class="interest">Horror documentaries</li>
+        <li class="interest">Watching tutorial videos</li>
+      </ul>
     </div>
 
     <div class="works">
       <h2>My Works</h2>
-      <div class="works-list">
-        <ol>
-          <li><a href="#">Youth</a></li>
-          <li><a href="#">Poetry</a></li>
-          <li><a href="#">Cloud</a></li>
-          <li><a href="#">Freedom</a></li>
-          <li><a href="#">Fall</a></li>
-        </ol>
-      </div>
+      <ol class="works-list">
+        <li class="work"><a href="#">Flames game c++</a></li>
+        <li class="work"><a href="#">My chemical romance</a></li>
+        <li class="work"><a href="#">CRUD Forms php</a></li>
+        <li class="work"><a href="#">Diary about myself</a></li>
+      </ol>
     </div>
 
     <div class="testimonials">
@@ -49,7 +43,7 @@
     </div>
 
     <div class="gallery">
-      <h2 class="title">Gallery</h2>
+      <h2>Gallery</h2>
       <div class="image-container">
         <div class="image-box">
           <img src="./images/4.jpg" alt="Image 1" />
@@ -75,7 +69,7 @@
     <div class="contact">
       <h2>Contact Me</h2>
       <div class="form-container">
-        <form class="container" action="#" method="POST">
+        <form class="container" action="#">
           <div class="forms">
             <div>
               <label for="email">Email</label>
@@ -114,5 +108,59 @@
         </form>
       </div>
     </div>
+
+    <div class="header-goals">
+      <h2>My Goals</h2>
+    </div>
+    <section class="goals">
+      <div class="goal">
+        <div class="icon"></div>
+        <h3>To pass this semester</h3>
+        <p>
+          All throughout my college journey, this semester is the most
+          challenging of all.
+        </p>
+      </div>
+      <div class="goal">
+        <div class="icon"></div>
+        <h3>Financially stable</h3>
+        <p>To live without worrying about the prices of the items.</p>
+      </div>
+      <div class="goal">
+        <div class="icon"></div>
+        <h3>Comfortable and successful career</h3>
+        <p>To have a enjoyable career and doing what I love the most.</p>
+      </div>
+      <div class="goal">
+        <div class="icon"></div>
+        <h3>Granting her wish</h3>
+        <p>Someday, I want to grant all of my mothers' wish.</p>
+      </div>
+    </section>
+
+    <div class="comment-section">
+      <h2>Comment</h2>
+      <div class="comment-container">
+        <form class="comments">
+          <div class="comment-group">
+            <label for="fullname">Name</label>
+            <input type="text" id="fullname" name="fullname" required />
+          </div>
+          <div class="comment-group">
+            <label for="comment">Comment</label>
+            <textarea
+              id="userComment"
+              name="comment"
+              required
+              oninput="checkComment()"
+            ></textarea>
+          </div>
+          <div class="comment-container">
+            <button type="submit" id="comment_Button" disabled>Comment</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
