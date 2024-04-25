@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="index.css" rel="stylesheet" />
+    <link href="trinidad_style.css" rel="stylesheet" />
     <title>Trinidad, Kian Lee</title>
   </head>
   <body>
@@ -46,22 +46,22 @@
       <h2>Gallery</h2>
       <div class="image-container">
         <div class="image-box">
-          <img src="./images/4.jpg" alt="A whale" />
+          <img src="./images/4.jpg" alt="Image 1" />
         </div>
         <div class="image-box">
-          <img src="./images/5.jpg" alt="Blue night" />
+          <img src="./images/5.jpg" alt="Image 2" />
         </div>
         <div class="image-box">
-          <img src="./images/sky.jpg" alt="sky" />
+          <img src="./images/6.jpg" alt="Image 3" />
         </div>
         <div class="image-box">
-          <img src="./images/8.jpg" alt="Blue mountains" />
+          <img src="./images/8.jpg" alt="Image 4" />
         </div>
         <div class="image-box">
-          <img src="./images/9.jpg" alt="Blue street" />
+          <img src="./images/9.jpg" alt="Image 5" />
         </div>
         <div class="image-box">
-          <img src="./images/10.jpg" alt="A tree" />
+          <img src="./images/10.jpg" alt="Image 6" />
         </div>
       </div>
     </div>
@@ -138,19 +138,43 @@
       </div>
     </section>
 
+    <div class="team-comment">
+      <h2>Comments</h2>
+      <div class="teammate-comments">
+        <div class="team-comment-item">
+          <span class="team-comment-author">Alliyah Samantha</span>
+          <p class="team-comment-text">Ampangit.</p>
+        </div>
+        <div class="team-comment-item">
+          <span class="team-comment-author">John Batumbakal Deniel</span>
+          <p class="team-comment-text">Kinginamo.</p>
+        </div>
+        <div class="team-comment-item">
+          <span class="team-comment-author">Marc Salsalero sa kanto</span>
+          <p class="team-comment-text">Nangyaaan.</p>
+        </div>
+        <div class="team-comment-item">
+          <span class="team-comment-author">Andrei rugbyboi</span>
+          <p class="team-comment-text">Alat bro.</p>
+        </div>
+        <div class="team-comment-item">
+          <span class="team-comment-author">Angelica</span>
+          <p class="team-comment-text">Hindi pa ito responsive e.</p>
+        </div>
+      </div>
+    </div>
+
     <div class="comment-section">
-      <h2>Comment</h2>
       <div class="comment-container">
         <form class="comments">
           <div class="comment-group">
-            <label for="fullname">Name</label>
-            <input type="text" id="fullname" name="fullname" required />
+            <input type="text" placeholder="Enter your name" required />
           </div>
           <div class="comment-group">
-            <label for="comment">Comment</label>
             <textarea
               id="userComment"
               name="comment"
+              placeholder="Enter your comment"
               required
               oninput="checkComment()"
             ></textarea>
