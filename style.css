@@ -125,6 +125,30 @@ a {
   border-radius: 10px;
 }
 
+.class-session {
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.class-session h2 {
+  margin-top: 2rem;
+  background-color: #01b0d3;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.class-session p {
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
 .forms {
   display: grid;
   grid-template-columns: 1fr 1fr;
