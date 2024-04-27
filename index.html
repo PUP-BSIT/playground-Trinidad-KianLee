@@ -182,7 +182,12 @@
       <div class="comment-container">
         <form class="comments">
           <div class="comment-group">
-            <input type="text" placeholder="Enter your name" required />
+            <input
+              type="text"
+              placeholder="Enter your name"
+              required
+              oninput="checkComment()"
+            />
           </div>
           <div class="comment-group">
             <textarea
