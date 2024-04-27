@@ -263,7 +263,7 @@ p {
   padding: 2rem;
 }
 
-.comment-section {
+.comment-section > h2 {
   width: 100%;
 }
 
